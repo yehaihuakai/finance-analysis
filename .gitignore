@@ -1,2 +1,13 @@
 .idea/
 *.iml
+*.gitignore
+finance-analysis-interface/.settings/
+*.project
+*.classpath
+finance-analysis-master/.settings/
+finance-analysis-entity/.settings/
+finance-analysis-controller/CATALINA_HOME_IS_UNDEFINED/logs-dt/
+finance-analysis-service/.settings/
+finance-analysis-controller/.settings/
+CATALINA_HOME_IS_UNDEFINED/logs-dt/dt.log
+finance-analysis-common/.settings/

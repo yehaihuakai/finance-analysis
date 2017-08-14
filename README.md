@@ -1,7 +1,7 @@
 # finance-analysis
 just a demo for learning
 
-## 一、项目结构
+## 一、Project structure
 * api
 * entity
 * interface
