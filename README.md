@@ -1,7 +1,9 @@
 # finance-analysis
 just a demo for learning
 
-test commit and push
-
-
-
+## 一、项目结构
+* api
+* entity
+* interface
+* service
+* controller
