@@ -11,3 +11,4 @@ finance-analysis-service/.settings/
 finance-analysis-controller/.settings/
 CATALINA_HOME_IS_UNDEFINED/logs-dt/dt.log
 finance-analysis-common/.settings/
+*.log
