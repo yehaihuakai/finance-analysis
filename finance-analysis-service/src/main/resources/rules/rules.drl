@@ -1,0 +1,29 @@
+    package com.dion.drools.sample
+       
+    import com.dion.drools.sample.DroolsTest.Message;
+
+    rule "Hello World"  //随便起的，到目前为止为发现有实际意义
+//        lock-on-active true //执行一次后，是否限制起来再次执行
+//        no-loop true
+        when
+            m : Message( status == Message.HELLO, myMessage : message )
+        then  
+            System.out.println( myMessage );  
+//            m.setMessage( "Goodbye cruel world" );
+//            m.setStatus( Message.GOODBYE );
+            Thread.sleep(1000);
+            update( m );
+    end
+
+      
+    rule "GoodBye"
+        no-loop true
+        when
+            m : Message( status == Message.GOODBYE, myMessage : message )
+        then
+            System.out.println( myMessage );
+            m.setMessage( "Hello World" );
+            m.setStatus( Message.HELLO );
+            Thread.sleep(1000);
+            update( m );
+    end
