@@ -18,11 +18,13 @@
     </modules>
 
 
-    <!--目前不知道是哪里需要，先注释掉-->
+    <!--各依赖版本汇总-->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <mybatis-plus.version>2.0.7</mybatis-plus.version>
+        <drools-tools.version>7.1.0.Final</drools-tools.version>
         <!--<spring-boot-dubbo.version>1.5.3.RELEASE</spring-boot-dubbo.version>
         <cglib.version>3.2.4</cglib.version>
         <jacksonAsl.version>1.9.13</jacksonAsl.version>

@@ -20,7 +20,7 @@ public class DroolsProduct {
             KieSession kSession = kContainer.newKieSession("ksession-rules-message");
 
             // 获取KieRepository
-            KieRepository kieRepository = ks.getRepository();
+            //KieRepository kieRepository = ks.getRepository();
 
 
             // go !
